@@ -4,7 +4,7 @@ for place in places:
   new_place = input('Where to next? ')
 
   if new_place == 'quit':
-    print('MY LIST:')
+    print('MY LIST:') 
     for final_list_item in places:
       print(final_list_item)
     break
